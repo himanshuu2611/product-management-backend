@@ -16,7 +16,7 @@ public class CorsConfig {
 
         config.setAllowCredentials(true);
 
-        config.addAllowedOrigin("https://product-management-frontend-khaki.vercel.app/");
+        config.addAllowedOrigin("https://product-management-frontend-beige.vercel.app");
 
         config.addAllowedHeader("*");
 
