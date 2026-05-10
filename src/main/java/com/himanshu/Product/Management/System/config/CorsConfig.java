@@ -16,7 +16,7 @@ public class CorsConfig {
 
         config.setAllowCredentials(true);
 
-        config.addAllowedOrigin("http://localhost:5173");
+        config.addAllowedOrigin("https://product-management-frontend-khaki.vercel.app/");
 
         config.addAllowedHeader("*");
 
