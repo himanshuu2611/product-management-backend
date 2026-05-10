@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/products")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://product-management-frontend-khaki.vercel.app/")
+@CrossOrigin(origins = "https://product-management-frontend-beige.vercel.app")
 public class ProductController {
 
     private final ProductService productService;
