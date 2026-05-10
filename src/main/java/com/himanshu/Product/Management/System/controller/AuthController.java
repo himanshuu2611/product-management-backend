@@ -9,13 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/v1/auth")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "orsConfiguration config = new CorsConfiguration();
-
-        config.setAllowCredentials(true);
-
-        config.addAllowedOrigin("https://product-management-frontend-beige.vercel.app");
-
-        config.addAllowedHeader("*");")
+@CrossOrigin(origins = "https://product-management-frontend-beige.vercel.app")
 public class AuthController {
 
     private final AuthService authService;
